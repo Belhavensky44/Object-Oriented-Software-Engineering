@@ -14,3 +14,5 @@ function task5(url) {
 
     return pairs.map(p => `${p.rating}\t${p.lang}`).join('\n');
 }
+
+module.exports = task5;
