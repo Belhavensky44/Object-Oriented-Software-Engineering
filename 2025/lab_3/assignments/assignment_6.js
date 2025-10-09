@@ -20,3 +20,5 @@ function task6(url) {
         s.rating.toString().padStart(3)
     ).join('\n');
 }
+
+module.exports = task6;
